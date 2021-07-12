@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import CardTest from '../components/CardTest'
+import Header from '../components/Header'
+import JobCard from '../components/JobCard'
 
 export default function Home() {
   return (
@@ -8,9 +10,19 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <CardTest>
+      <Header>
 
-      </CardTest>
+      </Header>
+
+      <div className="Jobs grid grid-cols-3 gap-10 ">
+        <JobCard></JobCard>
+        <JobCard></JobCard>
+        <JobCard></JobCard>
+        <JobCard></JobCard>
+        <JobCard></JobCard>
+        <JobCard></JobCard>
+      </div>
+
     </div>
   )
 }

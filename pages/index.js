@@ -3,6 +3,7 @@ import CardTest from '../components/CardTest'
 import Header from '../components/Header'
 import JobCard from '../components/JobCard'
 
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -15,7 +16,7 @@ export default function Home() {
       </Header>
 
       <div className="Jobs grid grid-cols-3 gap-10 ">
-        <JobCard></JobCard>
+        <JobCard title="User Interface Designer" country="linz"></JobCard>
         <JobCard></JobCard>
         <JobCard></JobCard>
         <JobCard></JobCard>

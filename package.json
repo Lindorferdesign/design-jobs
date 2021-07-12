@@ -1,4 +1,10 @@
 {
+  "babelMacros": {
+    "twin": {
+        "config": "tailwind.config.js",
+        "preset": "styled-components"
+    }
+  },
   "name": "with-tailwindcss",
   "version": "0.1.0",
   "private": true,

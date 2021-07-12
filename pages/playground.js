@@ -1,0 +1,17 @@
+import Head from 'next/head'
+import CardTest from '../components/CardTest'
+
+export default function Home() {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+      <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <CardTest>
+
+      </CardTest>
+      <div>Playground TEst</div>
+    </div>
+  )
+}
